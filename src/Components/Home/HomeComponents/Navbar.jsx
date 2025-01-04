@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,20 +16,21 @@ function Navbar() {
                     </Link>
                     {/* Menu for large screens */}
                     <div className="hidden md:flex items-center space-x-6">
-                        <a href="#about" className="hover:text-gray-300">
+                        <Link to="about" smooth={true} duration={500} className="hover:text-gray-300 cursor-pointer">
                             About
-                        </a>
-                        <a href="#work" className="hover:text-gray-300">
-                            Work
-                        </a>
-                        <a href="#contact" className="hover:text-gray-300">
+                        </Link>
+                        <Link to="skill" smooth={true} duration={500} className="hover:text-gray-300 cursor-pointer">
+                            Skill
+                        </Link>
+                        <Link to="work" smooth={true} duration={500} className="hover:text-gray-300 cursor-pointer">
+                            Project
+                        </Link>
+                        <Link to="contact" smooth={true} duration={500} className="hover:text-gray-300 cursor-pointer">
                             Contact
-                        </a>
+                        </Link>
                         <a
-                            href="/resume.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="px-4 py-2 font-bold bg-gray-800 hover:bg-gray-700 rounded-md text-sm"
+                            href="https://drive.google.com/file/d/1VUIP_6YJxBfr8osvAAnXIEXIiDq56bsL/view?usp=drive_link"
+                            className="px-4 py-2 font-bold bg-indigo-500 hover:bg-indigo-600 rounded-md text-sm"
                         >
                             Resume
                         </a>
@@ -62,19 +63,20 @@ function Navbar() {
                 {/* Mobile Menu */}
                 {isMenuOpen && (
                     <div className="md:hidden flex flex-col space-y-2 mt-2">
-                        <a href="#about" className="hover:text-gray-300">
+                        <Link to="about" smooth={true} duration={500} className="hover:text-gray-300">
                             About
-                        </a>
-                        <a href="#work" className="hover:text-gray-300">
-                            Work
-                        </a>
-                        <a href="#contact" className="hover:text-gray-300">
+                        </Link>
+                        <Link to="skill" smooth={true} duration={500} className="hover:text-gray-300">
+                            Skill
+                        </Link>
+                        <Link to="work" smooth={true} duration={500} className="hover:text-gray-300">
+                            Project
+                        </Link>
+                        <Link to="contact" smooth={true} duration={500} className="hover:text-gray-300">
                             Contact
-                        </a>
+                        </Link>
                         <a
-                            href="/resume.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="https://drive.google.com/file/d/1VUIP_6YJxBfr8osvAAnXIEXIiDq56bsL/view?usp=drive_link"
                             className="hover:text-gray-300 font-bold pb-3"
                         >
                             Resume

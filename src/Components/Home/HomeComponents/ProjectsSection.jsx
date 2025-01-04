@@ -12,8 +12,8 @@ const ProjectsSection = () => {
     }, [])
 
     return (
-        <section className="bg-gray-900 text-white py-10 px-4">
-            <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+        <section className="bg-gray-900 text-white py-10 px-4" id="work">
+            <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-5">
                 {/* Introduction */}
                 <div className="text-center mb-10">
                     <h1 className="text-6xl font-bold pb-12">PROJECTS</h1>

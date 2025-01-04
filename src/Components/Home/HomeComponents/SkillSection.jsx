@@ -23,8 +23,8 @@ const skills = [
 
 function SkillsSection() {
   return (
-    <section className="bg-gray-900 text-white py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="bg-gray-900 text-white py-12" id="skill">
+      <div className="max-w-7xl mx-auto px-4 sm:px-4 lg:px-1">
         {/* Title */}
         <h2 className="text-6xl font-bold text-center py-12">
           SKILLS
