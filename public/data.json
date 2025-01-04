@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "image": "https://via.placeholder.com/150",
+      "title": "Vocabulary Learning",
+      "description": "An engaging platform designed to help users enhance their vocabulary through interactive quizzes and games.",
+      "view_details": "This platform provides users with tools to learn and expand their vocabulary effectively. Features include daily word challenges, interactive quizzes, flashcards, and progress tracking. Perfect for students, professionals, and language enthusiasts looking to improve their communication skills."
+    },
+    {
+      "id": 2,
+      "image": "https://via.placeholder.com/150",
+      "title": "Library Management System",
+      "description": "A comprehensive system for managing library resources, users, and transactions efficiently.",
+      "view_details": "This library management system simplifies the process of cataloging books, managing users, and tracking lending activity. It includes features such as book search, member registration, overdue reminders, and detailed reports. Designed to streamline library operations for schools, universities, and public libraries."
+    },
+    {
+      "id": 3,
+      "image": "https://via.placeholder.com/150",
+      "title": "Visa Navigation",
+      "description": "A user-friendly platform for navigating visa processes and requirements with ease.",
+      "view_details": "Visa Navigation helps users understand and complete visa applications for various countries. It offers step-by-step guidance, document checklists, and personalized recommendations. Ideal for travelers, students, and professionals seeking accurate and up-to-date visa information tailored to their needs."
+    }
+  ]
+  
