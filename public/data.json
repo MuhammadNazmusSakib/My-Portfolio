@@ -1,24 +1,35 @@
 [
-    {
-      "id": 1,
-      "image": "https://via.placeholder.com/150",
-      "title": "Vocabulary Learning",
-      "description": "An engaging platform designed to help users enhance their vocabulary through interactive quizzes and games.",
-      "view_details": "This platform provides users with tools to learn and expand their vocabulary effectively. Features include daily word challenges, interactive quizzes, flashcards, and progress tracking. Perfect for students, professionals, and language enthusiasts looking to improve their communication skills."
-    },
-    {
-      "id": 2,
-      "image": "https://via.placeholder.com/150",
-      "title": "Library Management System",
-      "description": "A comprehensive system for managing library resources, users, and transactions efficiently.",
-      "view_details": "This library management system simplifies the process of cataloging books, managing users, and tracking lending activity. It includes features such as book search, member registration, overdue reminders, and detailed reports. Designed to streamline library operations for schools, universities, and public libraries."
-    },
-    {
-      "id": 3,
-      "image": "https://via.placeholder.com/150",
-      "title": "Visa Navigation",
-      "description": "A user-friendly platform for navigating visa processes and requirements with ease.",
-      "view_details": "Visa Navigation helps users understand and complete visa applications for various countries. It offers step-by-step guidance, document checklists, and personalized recommendations. Ideal for travelers, students, and professionals seeking accurate and up-to-date visa information tailored to their needs."
-    }
-  ]
-  
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/ssKTYZ6/vocabulary-learning.png",
+    "title": "Vocabulary Learning",
+    "description": "A fun and interactive German language learning application to expand your vocabulary and improve communication skills.",
+    "view_details": "Lingo Bingo is designed to make German language learning easy and engaging. It offers a wide range of vocabulary lessons, tutorials, and interactive features like audio pronunciation.This platform provides users with tools to learn and expand their vocabulary effectively.",
+    "technologies": ["React", "Node.js", "MongoDB", "Express"],
+    "futureImprove": "Adding more features like making connections among users, creating chat facility, personalized word suggestions, and expanding multilingual support.",
+    "liveLink": "https://lingo-bingo-27ebf.web.app/",
+    "githubLink": "https://github.com/MuhammadNazmusSakib/Vocabulary-Learning-Client-"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/Fb0d1kZ/library-management.png",
+    "title": "Library Management System",
+    "description": "The Library Management System is a web-based application designed to efficiently manage its library operations.",
+    "view_details": "This library management system offers seamless book addition, categorization, and updating capabilities while ensuring accurate tracking of borrowed and returned books. The platform provides a user-friendly interface, facilitating smooth operations and easy access to the library's extensive resources.",
+    "technologies": ["React", "Node.js", "MongoDB", "Express"],
+    "futureImprove": "Implementing some extra features for admin, integrating e-book management.",
+    "liveLink": "https://library-management-syste-133af.web.app/",
+    "githubLink": "https://github.com/MuhammadNazmusSakib/Library-Management-System-Client"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/KVhMHyM/Visa-navigator.png",
+    "title": "Visa Navigation",
+    "description": "A user-friendly platform for navigating visa processes and requirements with ease.",
+    "view_details": "Visa Navigation helps users understand and complete visa applications for various countries.It is a comprehensive platform designed to simplify the visa application process by providing users with an easy-to-use interface to explore, apply for, and manage visa applications.",
+    "technologies": ["React", "Node.js", "MongoDB", "Express"],
+    "futureImprove": "Adding more country-specific details, implementing real-time chat support, and enhancing document upload and verification features.",
+    "liveLink": "https://visa-navigator-10ba9.web.app/",
+    "githubLink": "https://github.com/MuhammadNazmusSakib/Visa-Navigator-Portal-Client"
+  }
+]
