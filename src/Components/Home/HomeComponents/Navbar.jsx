@@ -1,8 +1,22 @@
 import React, { useState } from "react";
-import { Link } from "react-scroll";
+import { Link, useNavigate } from "react-router-dom";
 
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const navigate = useNavigate()
+
+    const handleScrollAndNavigate = (route, targetId) => {
+        // Navigate to the desired route
+        navigate(route, { replace: false });
+
+        // Delay to allow route to render, then scroll to the target ID
+        setTimeout(() => {
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: "smooth" });
+            }
+        }, 100); // Adjust delay as necessary
+    };
 
     return (
         <nav className="bg-blue-950 text-white sticky top-0 z-50 shadow-lg">
@@ -16,18 +30,18 @@ function Navbar() {
                     </Link>
                     {/* Menu for large screens */}
                     <div className="hidden md:flex items-center space-x-6">
-                        <Link to="about" smooth={true} duration={500} className="hover:text-gray-300 cursor-pointer">
+                        <div onClick={() => handleScrollAndNavigate("/", "about")} className="hover:text-gray-300 cursor-pointer">
                             About
-                        </Link>
-                        <Link to="skill" smooth={true} duration={500} className="hover:text-gray-300 cursor-pointer">
+                        </div>
+                        <div onClick={() => handleScrollAndNavigate("/", "skill")} className="hover:text-gray-300 cursor-pointer">
                             Skill
-                        </Link>
-                        <Link to="work" smooth={true} duration={500} className="hover:text-gray-300 cursor-pointer">
+                        </div>
+                        <div onClick={() => handleScrollAndNavigate("/", "work")} className="hover:text-gray-300 cursor-pointer">
                             Project
-                        </Link>
-                        <Link to="contact" smooth={true} duration={500} className="hover:text-gray-300 cursor-pointer">
+                        </div>
+                        <div onClick={() => handleScrollAndNavigate("/", "contact")} className="hover:text-gray-300 cursor-pointer">
                             Contact
-                        </Link>
+                        </div>
                         <a
                             href="https://drive.google.com/file/d/1VUIP_6YJxBfr8osvAAnXIEXIiDq56bsL/view?usp=drive_link"
                             className="px-4 py-2 font-bold bg-indigo-500 hover:bg-indigo-600 rounded-md text-sm"
@@ -63,18 +77,18 @@ function Navbar() {
                 {/* Mobile Menu */}
                 {isMenuOpen && (
                     <div className="md:hidden flex flex-col space-y-2 mt-2">
-                        <Link to="about" smooth={true} duration={500} className="hover:text-gray-300">
+                        <div onClick={() => handleScrollAndNavigate("/", "about")} className="hover:text-gray-300">
                             About
-                        </Link>
-                        <Link to="skill" smooth={true} duration={500} className="hover:text-gray-300">
+                        </div>
+                        <div onClick={() => handleScrollAndNavigate("/", "skill")} className="hover:text-gray-300">
                             Skill
-                        </Link>
-                        <Link to="work" smooth={true} duration={500} className="hover:text-gray-300">
+                        </div>
+                        <div onClick={() => handleScrollAndNavigate("/", "work")} className="hover:text-gray-300">
                             Project
-                        </Link>
-                        <Link to="contact" smooth={true} duration={500} className="hover:text-gray-300">
+                        </div>
+                        <div onClick={() => handleScrollAndNavigate("/", "contact")} className="hover:text-gray-300">
                             Contact
-                        </Link>
+                        </div>
                         <a
                             href="https://drive.google.com/file/d/1VUIP_6YJxBfr8osvAAnXIEXIiDq56bsL/view?usp=drive_link"
                             className="hover:text-gray-300 font-bold pb-3"
@@ -88,4 +102,4 @@ function Navbar() {
     );
 }
 
-export default Navbar;
+export default Navbar
