@@ -43,7 +43,7 @@ function Navbar() {
                             Contact
                         </div>
                         <a
-                            href="https://drive.google.com/file/d/1VUIP_6YJxBfr8osvAAnXIEXIiDq56bsL/view?usp=drive_link"
+                            href="https://drive.google.com/file/d/1d4tp13wH0VZJiu_5ONa7G8_fRNlQQWde/view?usp=drive_link"
                             className="px-4 py-2 font-bold bg-indigo-500 hover:bg-indigo-600 rounded-md text-sm"
                         >
                             Resume

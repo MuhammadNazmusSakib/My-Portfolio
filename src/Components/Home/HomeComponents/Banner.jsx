@@ -21,7 +21,7 @@ function Banner() {
 
                     <div className="mt-8">
                         <a
-                            href="https://drive.google.com/file/d/1VUIP_6YJxBfr8osvAAnXIEXIiDq56bsL/view?usp=drive_link"
+                            href="https://drive.google.com/file/d/1d4tp13wH0VZJiu_5ONa7G8_fRNlQQWde/view?usp=drive_link"
                             className="px-6 py-3 bg-indigo-500 hover:bg-indigo-600 rounded-full text-white font-medium"
                         >
                             View Resume
