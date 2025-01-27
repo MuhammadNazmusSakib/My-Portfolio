@@ -62,7 +62,7 @@ const ProjectDetails = () => {
 
                 {/* Links */}
                 <div className="mt-4 py-5">
-                    <a
+                    <a  target="_blank"
                         href={liveLink}
                         className={`px-3 sm:px-6 py-3 rounded-full text-white font-medium mr-4 ${
                             liveLink
@@ -72,7 +72,7 @@ const ProjectDetails = () => {
                     >
                         Live Demo
                     </a>
-                    <a
+                    <a  target="_blank"
                         href={githubLink}
                         className={`px-3 sm:px-6 py-3 rounded-full text-white font-medium ${
                             githubLink

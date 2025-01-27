@@ -8,16 +8,22 @@ import javascript from '../../../assets/img/javascript.png'
 import node from '../../../assets/img/node.png'
 import react from '../../../assets/img/react.png'
 import mongodb from '../../../assets/img/mongodb.png'
+import nextjs from '../../../assets/img/nextjs.png'
+import typescript from '../../../assets/img/typescript.png'
+
 
 const skills = [
-  { name: "HTML 5", icon: `${html5}` },
-  { name: "CSS 3", icon: `${css3}` },
-  { name: "Tailwind CSS", icon: `${tailwind}` },
-  { name: "JavaScript", icon: `${javascript}` },
+  
+  { name: "Next JS", icon: `${nextjs}` },
   { name: "React JS", icon: `${react}` },
+  { name: "JavaScript", icon: `${javascript}` },
+  { name: "TypeScript", icon: `${typescript}` },
   { name: "Node JS", icon: `${node}` },
   { name: "Express JS", icon: `${express}` },
   { name: "MongoDB", icon: `${mongodb}` },
+  { name: "HTML 5", icon: `${html5}` },
+  { name: "Tailwind CSS", icon: `${tailwind}` },
+  { name: "CSS 3", icon: `${css3}` },
   { name: "GitHub", icon: `${github}` },
 ];
 

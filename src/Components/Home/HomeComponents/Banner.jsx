@@ -20,8 +20,8 @@ function Banner() {
 
 
                     <div className="mt-8">
-                        <a
-                            href="https://drive.google.com/file/d/1d4tp13wH0VZJiu_5ONa7G8_fRNlQQWde/view?usp=drive_link"
+                        <a  target="_blank"
+                            href="https://drive.google.com/file/d/1tcX8ifE3kZpH-Whk3GzAztK4he7ujly7/view?usp=drive_link"
                             className="px-6 py-3 bg-indigo-500 hover:bg-indigo-600 rounded-full text-white font-medium"
                         >
                             View Resume
@@ -31,8 +31,8 @@ function Banner() {
                     <div className="mt-10 items-center">
                         <h3 className="text-xl font-semibold mb-4">Find Me On</h3>
                         <div className="flex gap-4">
-                            <a href="https://www.linkedin.com/in/muhammad-nazmus-sakib/"><FaLinkedin className="text-5xl" /></a>
-                            <a href="https://github.com/MuhammadNazmusSakib"><FaGithub className="text-5xl" /></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/muhammad-nazmus-sakib/"><FaLinkedin className="text-5xl" /></a>
+                            <a target="_blank" href="https://github.com/MuhammadNazmusSakib"><FaGithub className="text-5xl" /></a>
                         </div>
                     </div>
                 </div>

@@ -42,8 +42,8 @@ function Navbar() {
                         <div onClick={() => handleScrollAndNavigate("/", "contact")} className="hover:text-gray-300 cursor-pointer">
                             Contact
                         </div>
-                        <a
-                            href="https://drive.google.com/file/d/1d4tp13wH0VZJiu_5ONa7G8_fRNlQQWde/view?usp=drive_link"
+                        <a  target="_blank"
+                            href="https://drive.google.com/file/d/1tcX8ifE3kZpH-Whk3GzAztK4he7ujly7/view?usp=drive_link"
                             className="px-4 py-2 font-bold bg-indigo-500 hover:bg-indigo-600 rounded-md text-sm"
                         >
                             Resume

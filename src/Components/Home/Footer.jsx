@@ -50,8 +50,8 @@ function Footer() {
                     <div>
                         <h2 className="text-xl font-bold text-white mb-4">Social Media</h2>
                         <div className="flex space-x-4">
-                            <a href="https://www.linkedin.com/in/muhammad-nazmus-sakib/"><FaLinkedin className="text-5xl" /></a>
-                            <a href="https://github.com/MuhammadNazmusSakib"><FaGithub className="text-5xl" /></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/muhammad-nazmus-sakib/"><FaLinkedin className="text-5xl" /></a>
+                            <a target="_blank" href="https://github.com/MuhammadNazmusSakib"><FaGithub className="text-5xl" /></a>
                         </div>
                     </div>
                 </div>
